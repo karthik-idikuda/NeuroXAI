@@ -1,43 +1,36 @@
-# NeuroXAI - Explainable AI for Neuro-Diagnosis
+<div align="center">
+
+# NeuroXAI
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Jupyter%20Notebook-blue?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=law&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
+</p>
+
+*An advanced software structure developed by Karthik Idikuda.*
+
+<br/>
+
+</div>
 
 ## Overview
-NeuroXAI is a pioneering medical AI system focused on the early detection and analysis of neurological conditions like Alzheimer's Disease. It combines deep learning for accurate diagnosis with Explainable AI (XAI) techniques to provide clinicians with transparent, interpretable reasoning behind every prediction.
+Explainable AI framework for visualizing deep learning decisions.
 
-## Features
--   **Early Detection**: High-accuracy identification of early-stage Alzheimer's from MRI scans.
--   **Explainability**: Generates heatmaps (Grad-CAM) to highlight affected brain regions.
--   **Multi-Modal Analysis**: Integrates MRI data with clinical patient history.
--   **Report Generation**: Automated creation of detailed medical reports for doctors.
--   **Secure Processing**: HIPAA-compliant data handling.
+<br/>
 
-## Technology Stack
--   **Deep Learning**: PyTorch / TensorFlow (CNNs, ResNet).
--   **XAI**: Grad-CAM, SHAP values.
--   **Backend**: Python, Flask.
--   **Frontend**: React for the clinician dashboard.
--   **Data Processing**: NumPy, Pandas, Nibabel (for MRI files).
+## Architecture & Features
+- **Clean Architecture:** Ensures high maintainability and modular structure.
+- **Optimized Performance:** Built to handle intensive operations with minimal latency.
+- **Scalable Design:** Seamlessly adaptable for future functional expansions.
 
-## Usage Flow
-1.  **Upload**: Clinician uploads patient MRI scan.
-2.  **Preprocess**: Image is normalized and segmented.
-3.  **Predict**: AI model analyzes the scan for biomarkers.
-4.  **Explain**: XAI engine generates visual justification overlay.
-5.  **Review**: Doctor reviews the diagnosis and heatmap.
-
-## Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/Nytrynox/NeuroXAI.git
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python app.py
-```
+<br/>
 
 ## License
-MIT License
+This project operates under the **MIT License**. See the `LICENSE` file for more details.
 
-## Author
-**Karthik Idikuda**
+---
+<div align="center">
+  <br/>
+  <i>Engineered by <b>Karthik Idikuda</b></i>
+</div>
